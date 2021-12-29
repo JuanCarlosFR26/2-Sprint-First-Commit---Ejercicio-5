@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+Ejercicio 5
+Para estos ejercicios deberás realizar los mismos que en la fase 1 pero utilizando ReactJS.
+
+
+Ejercicio 5. Añade la funcionalidad de búsqueda por nombre, mail o ciudad:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
