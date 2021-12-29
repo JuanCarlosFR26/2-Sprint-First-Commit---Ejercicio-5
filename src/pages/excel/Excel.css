@@ -1,0 +1,136 @@
+.container__excel {
+    position: relative;
+    top: 200px;
+    border: 1px solid #e6e6ea;
+    width: 72%;
+    left: 100px;
+    border-radius: 20px;
+}
+
+.table__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 80px;
+    position: relative;
+    background-color: #f8f8f9;
+    top: 160px;
+    width: 70%;
+    height: 450px;
+    
+}
+
+.table__nav {
+    position: relative;
+    top: 190px;
+    width: 72%;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #f8f8f9;
+}
+
+.table__nav > input {
+    padding: 5px 14px 5px 10px;
+    position: static;
+    width: 148px;
+    height: 40px;
+    top: 0;
+    background-color: #ffffff;
+    border: 1px solid #e6e6ea;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.table__nav > .search {
+    display: flex;
+    margin-bottom: 40px;
+    width: 440px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table__nav > .search > label {
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.table__nav > .search > input {
+    height: 40px;
+    width: 343px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: #e6e6ea;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding: 8px;
+
+}
+
+.table__container > .exc__container {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.container__excel > .excel {
+    width: 100%;
+}
+
+.container__excel > .excel > tr, th, td {
+    text-align: center;
+    width: 16.6%;
+    padding: 12px;
+    border-bottom: 1px solid #e6e6ea;
+}
+
+.container__excel > .excel > thead > tr > th {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 13px;
+    color: #a5a8b3;
+    cursor: pointer;
+}
+
+
+.container__excel > .excel > tbody > tr > td {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #121625;
+}
+
+.container__excel > .excel > tbody > tr > td > span {
+    background-color: #32D5A4;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.container__excel > .excel > tbody > tr:last-child {
+    border-radius: 8px;
+    border-bottom: none;
+}
